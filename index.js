@@ -11,7 +11,7 @@ var chart    = require('chart.js')
 var font       = 'Kaushan Script, cursive'
 var yellow     = 'hsla(60,40%,55%,1)'
 var white      = 'hsla(120,24%,96%,1)'
-var violet     = 'hsla(329,25%,45%,1)'
+var violet     = 'hsla(300,35%,45%,1)'
 var lightBrown = 'hsla(29,21%,67%,1)'
 var darkBrown  = 'hsla(13,19%,45%,1)'
 /*-----------------------------------------------------------------------------
@@ -26,32 +26,27 @@ LOADING DATA
 var questions = [
 `
 Statement #1:
-The next social network I build,
-will definitely be for cats.
+I am interested in JavaScript
 `,
 `
 Statement #2:
-I believe dogs should be allowed
-everywhere people are
+I want to learn programing in JavaScript
 `,
 `
 Statement #3:
-My friends say, my middle name should be "Meow".
+Developers have paid little
 `,
 `
 Statement #4:
-Snoop Dog is definitely one of my
-favourite artists
+eSova course is instructive
 `,
 `
 Statement #5:
-I think I could spend all day just
-watching cat videows
+There is a sunny day
 `,
 `
 Statement #6:
-I regularly stop people in the street
-to pet their dogs.
+Do you want to continue to learn JavaScript
 `
 ]
 var i               = 0
